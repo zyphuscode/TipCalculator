@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#f0f353;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.container {
+  border-radius: 35px;
+  background: linear-gradient(315deg, #d8db4b, #ffff59);
+  box-shadow:  -24px -24px 48px #cacc46, 
+              24px 24px 48px #ffff60;
+  width: 400px;
+}
+
+h2, h3 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control input {
+  border: 2px solid #f0f353;
+  background: linear-gradient(315deg, #d8db4b, #ffff59);
+  box-shadow:  -24px -24px 48px #cacc46, 
+              24px 24px 48px #ffff60;
+  border-radius: 18px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control select {
+  border: 2px solid #f0f353;
+  background: linear-gradient(315deg, #d8db4b, #ffff59);
+  box-shadow:  -24px -24px 48px #cacc46, 
+              24px 24px 48px #ffff60;
+  border-radius: 18px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px
+}
+.form button {
+  cursor: pointer;
+  border-radius: 35px;
+  border: 2px solid #f0f353;
+background: linear-gradient(145deg, #d8db4b, #ffff59);
+box-shadow:  29px 29px 39px #cacc46, 
+            -29px -29px 39px #ffff60;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.result-container{
+  
+  align-items: center;
+  justify-content: space-between;
+}
+select:focus, input:focus, button:focus {
+  outline: 0;
+}
+
+@media(max-width: 60px) {
+  .form {
+    width: 200px;
+  }
+}
+
+
+

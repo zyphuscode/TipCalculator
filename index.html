@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Tip Form</title>
+</head>
+<body>
+  <div class="container">
+    <form  id="form" class="form">
+      <h2>Tip Calculator</h2>
+      <div class="form-control">
+        <h3>How Much Was Your Bill?</h3>
+        <div class="input-group-prepend">
+          <span class="input-group-text bill-icon"><i class="fas fa-dollar-sign fa-fw"></i></span>
+        </div>
+        <input type="number" id="bill-money" placeholder="Enter Bill" step=".01" value="1">
+        </div>
+
+      <div class="form-control">
+        <h3>How Many people Sharing The Bill?</h3>
+        <div class="input-group-prepend">
+          <span class="input-group-text user-icon"><i class="fas fa-user fa-fw"></i></span>
+        </div>
+        <input type="number" id="customer" placeholder="Enter Number Of People" value="0">
+      </div>
+      <div class="form-control">
+        <h3>Feeling Generous?</h3>
+      <div class="form-control form-control-lg text-capitalize" id="input-service">
+        <input type="number" id="tipPercent" placeholder="add % of the total" value="0">
+      </div>
+      
+    </div>
+      <br>
+      <div class="result-container">
+        <button type="submit"value="calculate" id="calc">Calculate</button>
+        <button type="submit" class="reset" id="reset">Reset</button>
+      <div class="rate" id="rate"></div>
+      <div class="result" id="result"></div>
+      </div>
+    </form>
+  </div>
+ 
+
+  <script src="app.js"></script>
+</body>
+
+</html>
