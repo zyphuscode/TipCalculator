@@ -15,12 +15,14 @@ function calculateTip(){
 
   const tipInput =  tipPercent.value;
   console.log(tipInput);
-  const newSum = (tipInput + billInput);
+  const newSum = (tipInput + billInput) / 100;
 
-  rateEL.innerText = `Your Total Tip According to your bill ${billInput} and ${customerInput} guests`
-  resultDisplay.innerText = (newSum/customerInput).toFixed(2);
+  rateEL.innerText = `Your Total Tip According to your bill  $${billInput} and ${customerInput} guests is`
+  resultDisplay.innerText = "$" + (newSum/customerInput).toFixed(2);
 
 }
+
+//format money
 
 
 //adding event Listeners

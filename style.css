@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#f0f353;
+  background-color:#ea891a;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
@@ -14,10 +14,10 @@ body {
   margin: 0;
 }
 .container {
-  border-radius: 35px;
-  background: linear-gradient(315deg, #d8db4b, #ffff59);
-  box-shadow:  -24px -24px 48px #cacc46, 
-              24px 24px 48px #ffff60;
+  border-radius: 50px;
+background: linear-gradient(315deg, #fa931c, #d37b17);
+box-shadow:  -20px -20px 27px #a46012, 
+             20px 20px 27px #ffb222;
   width: 400px;
 }
 
@@ -31,10 +31,11 @@ h2, h3 {
 }
 
 .form-control input {
-  border: 2px solid #f0f353;
-  background: linear-gradient(315deg, #d8db4b, #ffff59);
-  box-shadow:  -24px -24px 48px #cacc46, 
-              24px 24px 48px #ffff60;
+  border-radius: 50px;
+  border: 2px solid #ea891a;
+background: linear-gradient(315deg, #fa931c, #d37b17);
+box-shadow:  -20px -20px 27px #a46012, 
+            20px 20px 27px #ffb222;
   border-radius: 18px;
   display: block;
   width: 100%;
@@ -43,10 +44,11 @@ h2, h3 {
 }
 
 .form-control select {
-  border: 2px solid #f0f353;
-  background: linear-gradient(315deg, #d8db4b, #ffff59);
-  box-shadow:  -24px -24px 48px #cacc46, 
-              24px 24px 48px #ffff60;
+  border: 2px solid #ea891a;
+  border-radius: 50px;
+background: linear-gradient(315deg, #fa931c, #d37b17);
+box-shadow:  -20px -20px 27px #a46012, 
+             20px 20px 27px #ffb222;
   border-radius: 18px;
   display: block;
   width: 100%;
@@ -56,21 +58,44 @@ h2, h3 {
 .form button {
   cursor: pointer;
   border-radius: 35px;
-  border: 2px solid #f0f353;
-background: linear-gradient(145deg, #d8db4b, #ffff59);
-box-shadow:  29px 29px 39px #cacc46, 
-            -29px -29px 39px #ffff60;
+  border: 2px solid #ea891a;
+  border-radius: 50px;
+  background: linear-gradient(315deg, #fa931c, #d37b17);
+  box-shadow:  -20px -20px 27px #a46012, 
+              20px 20px 27px #ffb222;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   padding: 10px;
   margin-top: 20px;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
-
+.form button:hover {
+  background-color: #a46012;
+}
+.form button:active {
+  background-color: #a46012;
+  box-shadow:  -20px -20px 27px #a46012, 
+  20px 20px 27px #ffb222;
+  transform: translateY(4px);
+}
 .result-container{
-  
+  font-size: 20px;
   align-items: center;
   justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 50px;
+  border: 2px solid #ea891a;
+  background: linear-gradient(315deg, #fa931c, #d37b17);
+  box-shadow:  -20px -20px 27px #a46012, 
+            20px 20px 27px #ffb222;
+  border-radius: 18px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 select:focus, input:focus, button:focus {
   outline: 0;
@@ -81,6 +106,3 @@ select:focus, input:focus, button:focus {
     width: 200px;
   }
 }
-
-
-
