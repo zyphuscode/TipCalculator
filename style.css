@@ -42,7 +42,7 @@ box-shadow:  -20px -20px 27px #a46012,
   display: block;
   width: 100%;
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
@@ -56,7 +56,7 @@ box-shadow:  -20px -20px 27px #a46012,
   display: block;
   width: 100%;
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 .form button {
@@ -98,7 +98,7 @@ box-shadow:  -20px -20px 27px #a46012,
   display: block;
   width: 100%;
   padding: 10px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
 }
 select:focus, input:focus, button:focus {
