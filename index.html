@@ -4,38 +4,48 @@
   <meta charset="UTF-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Tip Form</title>
 </head>
 <body>
+  
   <div class="container">
     <form  id="form" class="form">
       <h2>Tip Calculator</h2>
+      
       <div class="form-control">
-        <img src="img/iconfinder_Dollar_1737376 (1).png">
+        
         <h3>How Much Was Your Bill?</h3>
         <div class="input-group-prepend">
-        <input type="number" id="bill-money" placeholder="Enter Bill $$$" value="1">
-        </div>
+          <i class="fa fa-usd" aria-hidden="true"></i>
+          </div>
+       <input type="number" id="bill-money" placeholder="Enter Bill $$$" value="">
       </div>
 
       <div class="form-control">
         <h3>How Many people Sharing The Bill?</h3>
         <div class="input-group-prepend">
-    
-        </div>
-        <input type="number" id="customer" placeholder="Enter Number Of People" value="0">
+          <i class="fa fa-user" aria-hidden="true"></i>
       </div>
+    
+        <input type="number" id="customer" placeholder="Enter Number Of People" value="">
+      </div>
+
       <div class="form-control">
         <h3>Feeling Generous?</h3>
-      <div class="form-control form-control-lg text-capitalize" id="input-service">
-        <input type="number" id="tipPercent" placeholder="add % of the total" value="0">
-      </div>
-      <br>
-
+      <div class="input-group-prepend">
+     </div>
+        <input type="number" id="tipPercent" placeholder="add % of the total" value="">
     </div>
+  
+      <br>
+ 
+
+      
       
       <div class="result-container">
         <button type="submit"value="calculate" id="calc">Calculate</button>
@@ -44,6 +54,9 @@
       <div class="result" id="result"></div>
       </div>
     </form>
+  </div>
+
+  
   </div>
  
 

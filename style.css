@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color:#ea891a;
   font-family: 'Open Sans', sans-serif;
@@ -41,6 +43,7 @@ box-shadow:  -20px -20px 27px #a46012,
   width: 100%;
   padding: 10px;
   font-size: 14px;
+  color: black;
 }
 
 .form-control select {
@@ -53,7 +56,8 @@ box-shadow:  -20px -20px 27px #a46012,
   display: block;
   width: 100%;
   padding: 10px;
-  font-size: 14px
+  font-size: 14px;
+  color: black;
 }
 .form button {
   cursor: pointer;
@@ -99,6 +103,13 @@ box-shadow:  -20px -20px 27px #a46012,
 }
 select:focus, input:focus, button:focus {
   outline: 0;
+}
+
+.text-center{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+  display: none;
 }
 
 @media(max-width: 60px) {
