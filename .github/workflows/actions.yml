@@ -1,9 +1,6 @@
 name: main
 
-on:
-  push:
-  pull_request:
-    - master
+on: [push]
 
 jobs:
   lint:
